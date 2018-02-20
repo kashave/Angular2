@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular QuickStart</title>
+    <base href="/src/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Polyfill(s) for older browsers -->
+    <script src="/node_modules/core-js/client/shim.min.js"></script>
+    <script src="/node_modules/zone.js/dist/zone.js"></script>
+    <script src="/node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('main.js').catch(function(err){ console.error(err); });
+    </script>
+      <link rel="stylesheet" href="styles.css">
+      <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+      <link href="../Content/font-awesome.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="m-a-1">
+      <!--<h1>Content will go here</h1>-->
+    <!--<my-app>Loading AppComponent content here ...</my-app>-->
+      <!--<todo-app>Angular placeholder</todo-app>-->
+      <app>
+        <div class="bg-success p-a-1 text-xs-center">
+        This is SportsStore
+      </div>
+      </app>
+  </body>
+</html>
